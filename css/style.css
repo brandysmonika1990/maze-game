@@ -1,0 +1,94 @@
+body {
+    background-image: url(../img/fractals-environment-1728589_1920.jpg);
+    background-position: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    height: 620px;
+    width: 100%;
+    position: relative;
+}
+
+#avatar {
+    position: absolute;
+    height: 50px;
+    width: 48px;
+    background-image: url(../img/avatar.png);
+}
+
+.block {
+    position: absolute;
+    width: 94%;
+    height: 30px;
+    background-image: url(../img/block.png);
+}
+
+#block1 {
+    transform: translateY(190%);
+    margin-left: 0;
+}
+
+#block2 {
+    transform: translateY(540%);
+    margin-right: 0;
+    margin-left: 80px;
+}
+
+#block3 {
+    transform: translateY(890%);
+}
+
+#block4 {
+    transform: translate(100%, 1240%);
+    width: 50%;
+}
+
+#block5 {
+    transform: translateY(1240%);
+    width: 43%;
+}
+
+#block6 {
+    transform: translate(0%, 1590%);
+    width: 10%;
+}
+
+#block7 {
+    transform: translate(22%, 1590%);
+    width: 81.9%;
+}
+
+#block8 {
+    transform: translateY(1940%);
+}
+
+#exit {
+    position: absolute;
+    height: 103px;
+    width: 100px;
+    transform: translate(1265%, 495%);
+    background-color: #2a2a2a;
+    border-radius: 5px;
+}
+
+#exit img {
+    text-align: center;
+}
+
+#restart,
+#next-lvl {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #2a2a2a;
+    border: 5px solid #0eed17;
+    border-radius: 5px;
+    color: #0eed17;
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+    padding: 15px;
+}
