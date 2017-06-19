@@ -5,6 +5,7 @@ body {
 }
 
 #container {
+    margin-top: 25px;
     height: 610px;
     width: 100%;
     position: relative;
